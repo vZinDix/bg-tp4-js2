@@ -1,0 +1,35 @@
+#table_container{
+    align-items:center;
+    background:#ffffff;
+    font-family:Calibri;
+    width : 80%;
+    margin : 30px auto;
+}
+
+#table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+
+th{
+    background:#028cd1;
+    color:#ffffff;
+}
+
+th,td{
+   padding: 6px;
+   border: 1px solid #ddd;
+}
+
+.col_number{
+    text-align:center;
+    width:70px;
+}
+.col_text{
+    text-align:left;
+}
+.col_chkbox{
+    text-align:center;
+    width:70px
+}
