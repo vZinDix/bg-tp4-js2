@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+	<meta charset="UTF-8">
+	<title>CRUD-Persons</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js"defer></script> <!-- Fichier JS from slide 24 -->
+</head>
+
+
+
+<body>
+	
+<div id="table_container">
+	<table id="table">
+		<tr><th>N°</th><th>Nom</th><th>Prénom</th><th>Points</th><th>Select</th></tr>
+			<tr class="row"><td class="col_number">1</td><td class="col_text">Nom1</td><td class="col_text">Prénom1</td><td class="col_number">5</td><td class="col_chkbox"><input type="checkbox"/></td></tr> <!-- type checkbox from tp slide 8 -->
+			<tr class="row"><td class="col_number">2</td><td class="col_text">Nom2</td><td class="col_text">Prénom2</td><td class="col_number">5</td><td class="col_chkbox"><input type="checkbox"/></td></tr>
+			<tr class="row"><td class="col_number">3</td><td class="col_text">Nom3</td><td class="col_text">Prénom3</td><td class="col_number">5</td><td class="col_chkbox"><input type="checkbox"/></td></tr>
+	</table>
+	<button onclick="doInsertRowTable(99, 'nom', 'prenom', 10)">Ajouter</button> <!-- button from slide 14 -->
+	
+</div>
+	
+</body>
+
+
+
+</html>
